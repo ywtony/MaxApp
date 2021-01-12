@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">MaxApp</string>
+    <string name="hint_name_log">Please enter your account</string>
+    <string name="password">Please enter your password</string>
+    <string name="hint_id">Please enter your ID</string>
+    <string name="login">logIn</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_enuequipement">Alarm</string>
+    <string name="menu_histroy_alarm">History Alarm</string>
+    <string name="menu_me">Me</string>
+    <string name="opinion">   Please write down your valuable comments</string>
+    <string name="propert_submit_feedback">Submit</string>
+    <string name="propert_feedback">Feedback</string>
+    <string name="synopsis">Project</string>
+    <string name="synopsis_data">【ProjectBrief】The project is in the application registration process.</string>
+    <string name="fault_list">FaultList</string>
+    <string name="project_list">Project List</string>
+    <string name="fault_description">Patrol</string>
+    <string name="fault_details_description">Breakdown description</string>
+    <string name="upload_fault_picture">Upload Picture</string>
+    <string name="fault_details">Fault Details</string>
+    <string name="warning_time">Warning time</string>
+    <string name="warning_type">Warning type</string>
+    <string name="warning_level">Alert level</string>
+    <string name="warning_address">Warning address</string>
+    <string name="warning_description">Warning describe</string>
+    <string name="clear_warning">Clear warning</string>
+    <string name="confirm_warning">Determine warning</string>
+    <string name="high">High</string>
+    <string name="middle">Middle</string>
+    <string name="low">Low</string>
+    <string name="check">Detect</string>
+    <string name="normal">Normal</string>
+    <string name="trouble">Trouble</string>
+    <string name="risk">Risk</string>
+    <string name="danger">Danger</string>
+    <string name="state_value">Status value</string>
+    <string name="number">Number</string>
+    <string name="close">Close</string>
+    <string name="temper_detection">Temperature measurement</string>
+    <string name="distance">Distance</string>
+    <string name="phase_distribution">Phase distribution</string>
+    <string name="clear_warning_reason">Clear warning reason</string>
+    <string name="main_confirm">Determine</string>
+    <string name="main_cancel">Disqualify</string>
+    <string name="equipment">Equipment</string>
+    <string name="fan">Draught fan</string>
+    <string name="lighting">Illumination</string>
+    <string name="gas_details">Meteorological information</string>
+    <string name="dynamic_components">Dynamic components</string>
+    <string name="state">Status</string>
+    <string name="temperature">Temperature</string>
+    <string name="about">About</string>
+    <string name="scavenging_caching">Clear cache</string>
+    <string name="detection_update">Update</string>
+    <string name="exit_logon">Log out</string>
+    <string name="ez_current_version">Versions</string>
+    <string name="back">Backtrack</string>
+    <string name="temp">Centigrade</string>
+    <string name="logging">be Longging...</string>
+    <string name="account_empty">The account cannot be empty</string>
+    <string name="password_empty">The password cannot be empty</string>
+    <string name="id_empty">The id cannot be empty</string>
+    <string name="location">location</string>
+    <string name="temperatures">%1$s°</string>
+    <string name="fault_level">Level：%1$s</string>
+    <string name="text_size">%1$s/200</string>
+    <string name="take_photo">Take photo</string>
+    <string name="photo_album">Photo album</string>
+    <string name="distances">DIS/M</string>
+    <string name="fault_type">Fault type</string>
+    <string name="current_value">Current value</string>
+    <string name="msg_load_ing">waiting</string>
+    <string name="about_us">About US</string>
+    <string name="zoneID">ZoneID</string>
+    <string name="name">Name</string>
+    <string name="type">Record Type</string>
+    <string name="mylocation">location</string>
+    <string name="menu_submitgj">Patrol</string>
+    <string name="clear_alarm">Clear</string>
+    <string name="deviceid">Device Id</string>
+    <string name="clear_alarm_description">Clear Alarm Description</string>
+    <string name="aboutus">\t\t\t\tShanghai Bandweaver Technologies Co., Ltd. established in Shanghai in 2002, has grown into a leading provider of optoelectronic devices and security monitoring solutions. We focus on customers’ requirements and continue providing high-quality products and services on optical fiber sensing, intelligent video and optical transmission.
+At present, our products and solutions have been used around the world serving companies and organizations in the fields of: fire, power, traffic, structure health, petrochemical, environmental protection and scientific research. Through real time monitoring and early alarm warning, Bandweaver helps all areas and industries to better protect people’s property and use assets and resources more efficiently.
+
+
+
+
+
+
+
+
+
+
+
+</string>
+    <string name="aboutus_company">Shanghai Bandweaver Technologies Co., Ltd.</string>
+    <string name="aboutus_zongbu">Head Office in Shanghai</string>
+    <string name="aboutus_address">Add: Room 103, Building 1, No. 299 Zhongchen road, Songjiang district, Shanghai, CN-201613</string>
+    <string name="aboutus_phone">Tel: +86-21-5187 6575</string>
+    <string name="aboutus_chuanzhen">Fax: +86-21-6162 1025</string>
+    <string name="aboutus_youbian">Post Code: 201210</string>
+    <string name="aboutus_newwork">Website: www.bandweaver.cn</string>
+    <string name="aboutus_email">E-mail: info@bandweaver.cn</string>
+    <string name="abouts_rexian">Hotline: 400-696-5055</string>
+    <string name="refresh">Refresh</string>
+    <string name="map">Map</string>
+    <string name="clear_alarm_type">submit type</string>
+    <string name="ll_type1">False Alarm</string>
+    <string name="ll_type2">submit type</string>
+    <string name="btn_wx">Satellite</string>
+    <string name="btn_dl">RoadMap</string>
+    <string name="ll_type3">无法确认</string>
+    <string name="ll_type100">Update Resource File</string>
+    <string name="net_error">network error</string>
+    <string name="to_my_location">MyLocation</string>
+    <string name="to_my_location_1">Reset</string>
+    <string name="alarmLevel" >Alarm Level</string>
+    <string name="riskLevel" >Risk Level</string>
+    <string name="verifierName" >Verifier</string>
+    <string name="level1">One Level</string>
+    <string name="level2"> Two Level</string>
+
+    <string name="aLevel">A Level</string>
+    <string name="bLevel"> B Level</string>
+    <string name="cLevel">C Level</string>
+    <string name="cAll">All</string>
+    <string name="start_time_text">Start Time</string>
+    <string name="end_time_text">End Time</string>
+</resources>

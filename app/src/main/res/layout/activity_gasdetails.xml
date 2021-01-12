@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/header_property_public"
+        layout="@layout/header" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gas_rlheight">
+
+        <ImageView
+            android:id="@+id/iv_gas"
+            android:layout_width="@dimen/iv_gasSize"
+            android:layout_height="@dimen/iv_gasSize"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fault_rl_margin"
+            android:background="@drawable/detection" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/iv_marginText"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_gas">
+
+            <TextView
+            android:id="@+id/tv_checkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check"
+            android:textColor="@color/tv_theme_color"
+            android:textSize="@dimen/entirety_textSize" />
+
+            <TextView
+            android:id="@+id/tv_checkTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/tv_checkName"
+            android:layout_marginTop="@dimen/faul_samllinterval"
+            android:text="2018-04-16 16:00"
+            android:textColor="@color/tv_menu_color"
+            android:textSize="@dimen/text_smallSize" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/text_marginRight"
+            android:text="@string/normal"
+            android:textColor="@color/tv_theme_color"
+            android:textSize="@dimen/topbar_textSize" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/faul_samllinterval"
+        android:background="#F6F8FA"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/bg_white"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gad_item_height"
+            android:layout_marginTop="@dimen/gad_space">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/gad_item_marginLeft"
+                android:gravity="center_vertical"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="@string/state_value"/>
+            <TextView
+                android:id="@+id/tv_statusValue"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/text_marginRight"
+                android:layout_centerVertical="true"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gad_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/gad_item_marginLeft"
+                android:gravity="center_vertical"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="@string/number"/>
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/text_marginRight"
+                android:layout_centerVertical="true"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="1234"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gad_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/gad_item_marginLeft"
+                android:gravity="center_vertical"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="xx"/>
+            <TextView
+                android:id="@+id/tv_other"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/text_marginRight"
+                android:layout_centerVertical="true"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="123"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/gad_space"
+            android:background="@color/split_line_bg"
+            android:layout_marginRight="@dimen/gad_item_marginLeft"
+            android:layout_marginLeft="@dimen/gad_item_marginLeft"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_marginTop="@dimen/gad_close_marginTop"
+        android:layout_width="@dimen/gad_close_width"
+        android:layout_height="@dimen/gad_close_height"
+        android:background="@drawable/basemap"
+        android:text="@string/close"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/topbar_textSize" />
+</LinearLayout>

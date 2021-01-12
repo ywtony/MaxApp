@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_header">#262930</color>
+    <color name="bg_headerTran">#ff262930</color>
+    <color name="theme_color">#128de9</color>
+    <color name="tv_title_color">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_color">#F6F8FA</color>//app整体背景颜色
+    <color name="line_menu_color">#D9D9D9</color>
+    <color name="tv_menu_color">#999999</color>
+    <color name="tv_theme_color">#333333</color>
+    <color name="split_line_bg">#E5E5E5</color>
+    <color name="assembly_text">#c8c8c8</color>
+    <color name="yellow">#fff306</color>
+    <color name="green">#00a64f</color>
+    <color name="red">#ec1c22</color>
+    <color name="split">#b2b2b2</color>
+    <color name="trip_bgcolor">#f4f4f4</color>
+    <!-- 所有的蓝色文字 -->
+    <color name="trip_textcolor_blue">#01cbd8</color>
+
+    <color name="colorPrimary">#40c4ff</color>
+
+    <!--字体颜色-->
+    <color name="t333">#333333</color>
+    <color name="t666">#666666</color>
+    <color name="t999">#999999</color>
+    <color name="linecolor">#e5e5e5</color>
+    <color name="transparent">#0fff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line_xian">#E2E2E2</color>
+    <color name="huangse">#FFCD0E</color>
+    <color name="green_dark">#666666</color>
+    <color name="grey_backgroud">#EEEEEE</color>
+    <color name="ziti_grey">#666666</color>
+    <color name="huise">#AAAAAA</color>
+    <color name="black">#222222</color>
+    <color name="blue">#00cdff</color>
+
+    <color name="jindu1">#9FEAFF</color>
+    <color name="jindu2">#E2ECCA</color>
+    <color name="jindu3">#B2ECE0</color>
+
+    <color name="grey">#C7C7C7</color>
+    <color name="whitelight">#F5F5F5</color>
+    <color name="traarent">#e0000000</color>
+    <color name="car_light">#CECECE</color>
+
+    <color name="grey_light">#999999</color>
+
+    <color name="date_1">#393b42</color>
+    <color name="date_2">#999999</color>
+
+    <color name="orange">#FE7D39</color>
+    <color name="orangedark">#FF7E00</color>
+    <color name="lineheight">#F0F0F0</color>
+    <color name="blacklight">#343434</color>
+    <color name="mid_black">#323232</color>
+    <color name="touming">#e0000000</color>
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="divide_line">#f7f7f7</color>
+    <color name="mask_color">#88888888</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="greydark">#717171</color>
+    <color name="redq">#ff0000</color>
+    <color name="homebotton">#999999</color>
+    <color name="content_greay">#9d9c9c</color>
+    <color name="content_text">#666666</color>
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="btn_gray">#545454</color>
+    <color name="text_green">#36B93B</color>
+    <color name="text_black">#000000</color>
+
+    <color name="translate">#00000000</color>
+    <color name="background">#f7f7f7</color>
+    <color name="price_red">#ff0037</color>
+    <color name="colorAutoDismissToast">#88000000</color>
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="text_common">#333</color>
+    <color name="add_cb_sel">#14D2FF</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="gray">#BBBBBB</color>
+</resources>

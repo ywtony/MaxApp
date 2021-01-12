@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MaxApp</string>
+    <string name="hint_name_log">请输入账号</string>
+    <string name="password">请输入密码</string>
+    <string name="hint_id">请输入ID</string>
+    <string name="login">登录</string>
+    <string name="menu_home">监控</string>
+    <string name="menu_enuequipement">告警</string>
+    <string name="menu_me">我的</string>
+    <string name="opinion">   请写下您宝贵的意见</string>
+    <string name="propert_submit_feedback">提交</string>
+    <string name="propert_feedback">意见反馈</string>
+    <string name="synopsis">项目简介</string>
+    <string name="synopsis_data">【项目简介】该项目在申请注册流程中</string>
+    <string name="fault_list">故障列表</string>
+    <string name="fault_type">故障类型</string>
+    <string name="project_list">项目列表</string>
+    <string name="fault_description">巡检记录</string>
+    <string name="fault_details_description">巡检记录详情</string>
+    <string name="upload_fault_picture">上传图片</string>
+    <string name="fault_details">故障详情</string>
+    <string name="warning_time">警告时间</string>
+    <string name="warning_type">警告类型</string>
+    <string name="warning_level">警告级别</string>
+    <string name="warning_address">警告地址</string>
+    <string name="warning_description">警告描述</string>
+    <string name="clear_warning">清除警告</string>
+    <string name="confirm_warning">确定警告</string>
+    <string name="high">高</string>
+    <string name="middle">中</string>
+    <string name="low">低</string>
+    <string name="check">检测</string>
+    <string name="normal">正常</string>
+    <string name="trouble">缺陷点</string>
+    <string name="risk">隐患</string>
+    <string name="danger">危险</string>
+    <string name="state_value">状态值</string>
+    <string name="number">编号</string>
+    <string name="close">关闭</string>
+    <string name="temper_detection">温度检测</string>
+    <string name="distance">距离</string>
+    <string name="phase_distribution">A相分布</string>
+    <string name="clear_warning_reason">清楚警告原因</string>
+    <string name="main_confirm">确定</string>
+    <string name="main_cancel">取消</string>
+    <string name="take_photo">拍照</string>
+    <string name="photo_album">相册</string>
+    <string name="equipment">设备</string>
+    <string name="fan">风机</string>
+    <string name="lighting">照明</string>
+    <string name="gas_details">气象详情</string>
+    <string name="dynamic_components">动态组件</string>
+    <string name="state">状态</string>
+    <string name="temperature">温度</string>
+    <string name="about">关于我们</string>
+    <string name="scavenging_caching">清除缓存</string>
+    <string name="detection_update">检测更新</string>
+    <string name="exit_logon">退出登录</string>
+    <string name="ez_current_version">当前版本</string>
+    <string name="back">返回</string>
+    <string name="temp">度</string>
+    <string name="logging">登录中...</string>
+    <string name="location">定位</string>
+    <string name="account_empty">账号不能为空!</string>
+    <string name="password_empty">密码不能为空!</string>
+    <string name="id_empty">ID不能为空!</string>
+    <string name="temperatures">%1$s°</string>
+    <string name="fault_level">级别：%1$s</string>
+    <string name="text_size">%1$s/200</string>
+    <string name="distances">距离/M</string>
+    <string name="current_value">当前值</string>
+    <string name="about_us">关于我们</string>
+    <string name="zoneID">请选择线路</string>
+    <string name="name">请输入名称</string>
+    <string name="type">请选择类型</string>
+    <string name="mylocation">请输入具体的位置</string>
+    <string name="menu_submitgj">巡检</string>
+    <string name="clear_alarm">确认告警</string>
+    <string name="refresh">刷新</string>
+    <string name="map">Map</string>
+    <string name="deviceid">设备ID</string>
+    <string name="clear_alarm_description">确认告警描述</string>
+    <string name="aboutus">\t\t\t\t上海波汇科技股份有限公司创建于2002年，是一家集自主研发、制造、销售及工程服务为一体的国家火炬计划重点高新技术企业，总部位于上海，
+上海波汇科技股份有限公司是先进的光电芯片、光纤传感设备和安全监控解决方案的供应商，
+致力于为电力、交通、消防、安防、结构健康等领域建立感知神经系统，
+通过实时监测和早期预警，帮助各个领域和行业更好地保障人员财产安全，更有效地利用资产和资源。
+
+
+
+
+
+
+
+
+
+
+
+</string>
+    <string name="clear_alarm_type">提交类型</string>
+    <string name="aboutus_company">上海波汇科技股份有限公司</string>
+    <string name="aboutus_zongbu">上海总部</string>
+    <string name="aboutus_address">地址：上海市松江区，中辰路299号</string>
+    <string name="aboutus_phone">电话：+86-21	-5187 6575</string>
+    <string name="aboutus_chuanzhen">传真：+86-21-6162 1025</string>
+    <string name="aboutus_youbian">邮编：201210</string>
+    <string name="aboutus_newwork">网址：www.bandweaver.cn</string>
+    <string name="aboutus_email">邮箱：info@bandweaver.cn</string>
+    <string name="abouts_rexian">服务热线：400-696-5050</string>
+    <string name="ll_type1">确认告警</string>
+    <string name="ll_type2">系统误报</string>
+    <string name="ll_type3">无法确认</string>
+    <string name="btn_wx">卫星地图</string>
+    <string name="btn_dl">道路地图</string>
+    <string name="ll_type100">更新资源文件</string>
+    <string name="net_error">网络请求失败</string>
+    <string name="to_my_location">当前位置</string>
+    <string name="to_my_location_1" tools:ignore="ExtraTranslation">复位</string>
+    <string name="alarmLevel" tools:ignore="ExtraTranslation">告警等级</string>
+    <string name="riskLevel" tools:ignore="ExtraTranslation">风险等级</string>
+    <string name="verifierName" tools:ignore="ExtraTranslation">核实人</string>
+    <string name="level1">一级</string>
+    <string name="level2">二级</string>
+    <string name="aLevel">A 级</string>
+    <string name="bLevel"> B 级</string>
+    <string name="cLevel">C 级</string>
+    <string name="menu_histroy_alarm">历史告警</string>
+    <string name="cAll">全部</string>
+    <string name="start_time_text">开始时间</string>
+    <string name="end_time_text">结束时间</string>
+</resources>

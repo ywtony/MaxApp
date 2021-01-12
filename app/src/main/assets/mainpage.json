@@ -1,0 +1,19 @@
+{
+	"ID": 18,
+	"PID": 0,
+	"Name": "GIS",
+	"SystemID": {
+		"SysSystemID": 1,
+		"SystemName": "Main Monitor Platform",
+		"Thumbnail": "slt_1.png"
+	},
+	"BackgroundImage": "",
+	"OrderID": 0,
+	"Boxs": null,
+	"IsFloat": false,
+	"Width": 2300,
+	"Height": 1165,
+	"PageLevel": 1,
+	"BackColor": "0080c0",
+	"Hide": false
+}

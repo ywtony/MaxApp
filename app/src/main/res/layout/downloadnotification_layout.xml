@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/downLoadIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:src="@mipmap/app_icon" />
+
+    <TextView
+        android:id="@+id/downloadtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/downLoadIcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/downLoadIcon"
+        android:gravity="center_vertical"
+        android:text="正在下载..." />
+
+    <ProgressBar
+        android:id="@+id/downLoadProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dip"
+        android:layout_height="6dp"
+        android:layout_alignBottom="@+id/downLoadIcon"
+        android:layout_below="@+id/downloadtext"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/downLoadIcon"
+        android:progressDrawable="@drawable/progress_style_download"
+        />
+
+    <TextView
+        android:id="@+id/progressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/downLoadProgress"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/downLoadProgress"
+        android:text="0%" />
+
+</RelativeLayout>

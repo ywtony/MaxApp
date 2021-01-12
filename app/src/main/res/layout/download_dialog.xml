@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="发现新版本"
+        android:visibility="gone"
+        android:textColor="@color/bg_header"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dialog_tv_topline"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/dialog_tv_title"
+        android:background="@color/bg_header" />
+
+    <ProgressBar
+        android:id="@+id/downLoadProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="12dp"
+        android:layout_below="@+id/dialog_tv_topline"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+         />
+
+    <TextView
+        android:id="@+id/dialog_tv_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dialog_tv_buttomline"
+        android:layout_below="@+id/downLoadProgress"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="发现新版本，确定要升级吗？" />
+
+    <TextView
+        android:id="@+id/dialog_tv_buttomline"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/dialog_tv_noupdate"
+        android:layout_centerHorizontal="true"
+        android:background="#f4f4f4" />
+
+    <TextView
+        android:id="@+id/dialog_tv_noupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/dialog_tv_hline"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="暂不更新"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dialog_tv_hline"
+        android:layout_width="1px"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dialog_tv_yesupdate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/dialog_tv_noupdate"
+        android:layout_centerHorizontal="true"
+        android:background="#f4f4f4" />
+
+    <TextView
+        android:id="@+id/dialog_tv_yesupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/dialog_tv_hline"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="马上更新"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_property_room"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:id="@+id/ll_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/login_marginLeft"
+        android:layout_marginRight="@dimen/login_marginLeft"
+        android:layout_marginTop="@dimen/login_marginTop"
+        android:orientation="vertical">
+        <com.bohui.widget.ClearEditText
+            android:id="@+id/et_login_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_etHeight"
+            android:layout_marginLeft="@dimen/login_etMargin"
+            android:layout_marginRight="@dimen/login_etMargin"
+            android:layout_marginTop="1dp"
+            android:background="@color/bg_white"
+            android:drawableLeft="@drawable/phone_log"
+            android:text="user"
+            android:drawablePadding="@dimen/login_etMargin"
+            android:drawableRight="@drawable/delete_selector"
+            android:hint="@string/hint_name_log"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/split_line_bg" />
+        <com.bohui.widget.ClearEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_etHeight"
+            android:layout_marginLeft="@dimen/login_etMargin"
+            android:layout_marginRight="@dimen/login_etMargin"
+            android:layout_marginTop="1dp"
+            android:background="@color/bg_white"
+            android:drawableLeft="@drawable/lock_log"
+            android:drawablePadding="@dimen/login_etMargin"
+            android:text="B@ndwe@ver"
+            android:drawableRight="@drawable/delete_selector"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/split_line_bg" />
+        <com.bohui.widget.ClearEditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_etHeight"
+            android:layout_marginLeft="@dimen/login_etMargin"
+            android:layout_marginRight="@dimen/login_etMargin"
+            android:layout_marginTop="1dp"
+            android:background="@color/bg_white"
+            android:drawableLeft="@drawable/id"
+            android:drawablePadding="@dimen/login_etMargin"
+            android:drawableRight="@drawable/delete_selector"
+            android:hint="@string/hint_id"
+            android:text="http://222.72.158.166:60008"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/split_line_bg" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_etHeight"
+            android:layout_marginLeft="@dimen/login_etMargin"
+            android:layout_marginRight="@dimen/login_etMargin"
+            android:layout_marginTop="1dp"
+            android:background="@color/bg_white">
+            <RadioButton
+                android:id="@+id/radio_chinese"
+                android:layout_width="@dimen/login_radioSize"
+                android:layout_height="@dimen/login_radioSize"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:background="@drawable/selector_radio"
+                android:button="@null" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/radio_chinese"
+                android:textColor="@color/tv_title_color"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/entirety_textSize"
+                android:layout_marginLeft="5dp"
+                android:text="中文"/>
+
+            <TextView
+                android:id="@+id/tv_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/tv_title_color"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/entirety_textSize"
+                android:text="English"/>
+            <RadioButton
+                android:id="@+id/radio_english"
+                android:layout_width="@dimen/login_radioSize"
+                android:layout_height="@dimen/login_radioSize"
+                android:layout_toLeftOf="@+id/tv_english"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/radio_margin"
+                android:background="@drawable/selector_radio"
+                android:button="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_marginLeft"
+        android:layout_marginRight="@dimen/login_marginLeft"
+        android:layout_below="@id/ll_edit"
+        android:layout_marginTop="@dimen/login_btmarginTop"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_etHeight"
+            android:layout_marginLeft="@dimen/login_etMargin"
+            android:layout_marginRight="@dimen/login_etMargin"
+            android:background="@drawable/corners_btn_bg"
+            android:text="@string/login"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/topbar_textSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

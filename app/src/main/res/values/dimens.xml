@@ -1,0 +1,169 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_textSize">18sp</dimen>
+    <dimen name="entirety_textSize">16sp</dimen>
+    <dimen name="remark_textSize">14sp</dimen>
+    <dimen name="small_textSize">10sp</dimen>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="topbar_height">41dp</dimen>
+    <dimen name="menu_backSize">19dp</dimen>
+    <dimen name="menu_menuSize">18dp</dimen>
+    <dimen name="menu_rightivSize">17dp</dimen>
+    <!-- 登录 -->
+    <dimen name="login_marginLeft">25dp</dimen>
+    <dimen name="login_marginTop">34dp</dimen>
+    <dimen name="login_etHeight">42dp</dimen>
+    <dimen name="login_radioSize">15dp</dimen>
+    <dimen name="radio_margin">4dp</dimen>
+    <dimen name="login_btmarginTop">17dp</dimen>
+    <dimen name="login_etMargin">10dp</dimen>
+    <!-- 主页-->
+    <dimen name="project_itemHeight">47dp</dimen>
+
+    <dimen name="radiogroup_height">47dp</dimen>
+    <dimen name="drawerlayout_margin">33dp</dimen>
+    <!-- 设备 -->
+    <dimen name="faul_samllinterval">8dp</dimen>
+    <dimen name="faul_interval">12dp</dimen>
+    <dimen name="assembly_textSize">27dp</dimen>
+    <dimen name="assembly_margin">11dp</dimen>
+    <dimen name="fault_item_height">44dp</dimen>
+    <dimen name="fault_Ivheight">25dp</dimen>
+    <dimen name="iv_Insideheight">15dp</dimen>
+    <dimen name="tv_margin">10dp</dimen>
+    <dimen name="cb_width">31.5dp</dimen>
+    <dimen name="cb_height">20.5dp</dimen>
+    <dimen name="fault_rl_margin">14dp</dimen>
+    <!-- 我的 -->
+    <dimen name="iv_header_marginLeft">14dp</dimen>
+    <dimen name="iv_header_marginRight">17dp</dimen>
+    <dimen name="rl_header_height">94dp</dimen>
+    <dimen name="iv_header_height">80dp</dimen>
+    <dimen name="iv_me_ItemSize">19dp</dimen>
+    <dimen name="text_margin_iv">13.5dp</dimen>
+    <dimen name="me_text_margin">16dp</dimen>
+    <dimen name="interval_marginLeft">42dp</dimen>
+    <dimen name="version_margin">6dp</dimen>
+    <dimen name="bt_marginTop">58dp</dimen>
+    <dimen name="bt_marginLeft">30dp</dimen>
+    <dimen name="bt_height">40dp</dimen>
+    <!-- 故障描述-->
+    <dimen name="et_minHeight">100dp</dimen>
+    <dimen name="et_maxHeight">250dp</dimen>
+    <dimen name="et_marginTop">17dp</dimen>
+    <dimen name="gridview_minHeight">80dp</dimen>
+    <!-- 故障详情-->
+    <dimen name="faulteta_tvHeight">37dp</dimen>
+    <dimen name="faulteta_tvmargin">5dp</dimen>
+    <dimen name="faulteta_Height">34dp</dimen>
+    <dimen name="faulteta_rlHeight">65dp</dimen>
+    <dimen name="small_space">3dp</dimen>
+    <dimen name="opinion">125dp</dimen>
+    <dimen name="tiny_space">4dp</dimen>
+    <dimen name="me_header_margin">28dp</dimen>
+    <dimen name="me_item_height">42dp</dimen>
+    <dimen name="iv_header_margin">10dp</dimen>
+    <dimen name="faulttetils_item_height">34dp</dimen>
+    <!-- 气体详情-->
+    <dimen name="gas_rlheight">70dp</dimen>
+    <dimen name="text_marginRight">13dp</dimen>
+    <dimen name="iv_gasSize">50dp</dimen>
+    <dimen name="iv_marginText">16dp</dimen>
+    <dimen name="text_smallSize">13sp</dimen>
+    <dimen name="gad_space">11dp</dimen>
+    <dimen name="gad_item_height">34dp</dimen>
+    <dimen name="gad_item_marginLeft">12dp</dimen>
+    <dimen name="gad_item_marginRight">21dp</dimen>
+    <dimen name="gad_close_marginTop">94dp</dimen>
+    <dimen name="gad_close_width">125dp</dimen>
+    <dimen name="gad_close_height">40dp</dimen>
+    <dimen name="temperature_size">22dp</dimen>
+    <dimen name="iv_temperature">8dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">40dp</dimen>
+    <dimen name="my_headhigh">160dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">20dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <dimen name="title_text_size">21sp</dimen>
+
+    <!-- 字体大小选择 -->
+    <dimen name="font_size_xxlarge">22.0sp</dimen>
+    <dimen name="font_size_xlarge">20.0sp</dimen>
+    <dimen name="font_size_large">18.0sp</dimen>
+    <dimen name="font_size_middle">16.0sp</dimen>
+    <dimen name="font_size_small">14.0sp</dimen>
+    <dimen name="font_size_lsmall">12.0sp</dimen>
+
+    <!-- 头像大小 -->
+    <dimen name="headsize_max">76dip</dimen>
+    <!-- 控件和侧边栏以及上下之间的距离 -->
+    <dimen name="margin_maxtop">30dp</dimen>
+    <dimen name="margin_nortop">20dp</dimen>
+    <dimen name="margin_smatop">15dp</dimen>
+    <dimen name="margin_mintop">10dp</dimen>
+    <dimen name="margin_maxside">20dp</dimen>
+    <dimen name="margin_largeside">15dp</dimen>
+    <dimen name="margin_norside">10dp</dimen>
+    <dimen name="margin_smallside">8dp</dimen>
+    <dimen name="margin_minside">5dp</dimen>
+    <dimen name="margin_side">3dp</dimen>
+    <dimen name="margin_sside">1dp</dimen>
+
+    <dimen name="margin_line">0.5dp</dimen>
+
+    <!-- 首页公共布局 -->
+    <dimen name="line_width">0.1dp</dimen>
+    <dimen name="text_padd_image">5dp</dimen>
+
+    <!-- 侧边栏头像大小 -->
+    <dimen name="image_size">50dp</dimen>
+
+    <dimen name="dp_10">10dp</dimen>
+
+    <dimen name="input_method_spacing">0.5dp</dimen>
+    <!--边距-->
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_05">0.5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+
+    <!--字体-->
+    <dimen name="font_22">22.0sp</dimen>
+    <dimen name="font_18">18.0sp</dimen>
+    <dimen name="font_16">16.0sp</dimen>
+    <dimen name="font_17">17.0sp</dimen>
+    <dimen name="font_14">14.0sp</dimen>
+    <dimen name="font_12">12.0sp</dimen>
+    <dimen name="font_19">19.0sp</dimen>
+    <dimen name="font_34">34.0sp</dimen>
+    <dimen name="font_21">21.0sp</dimen>
+
+
+
+
+</resources>

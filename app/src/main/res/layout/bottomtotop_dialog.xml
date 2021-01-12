@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gaode_map"
+        android:layout_centerHorizontal="true"
+        android:text="请选择第三方地图导航！" />
+
+    <Button
+        android:id="@+id/gaode_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/baidu_map"
+        android:background="@drawable/to_map_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text="高德地图" />
+
+    <Button
+        android:id="@+id/baidu_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tencent_map"
+        android:background="@drawable/to_map_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text="百度地图" />
+
+    <Button
+        android:id="@+id/tencent_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/to_map_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_above="@+id/btn_cancel"
+        android:layout_marginEnd="20dp"
+        android:text="腾讯地图" />
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/to_map_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="取消" />
+</RelativeLayout>

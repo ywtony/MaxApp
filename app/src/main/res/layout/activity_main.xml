@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_mainactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_menu_color" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/main_tab"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_selector_home"
+            android:text="@string/menu_home" />
+        <RadioButton
+            android:id="@+id/rb_enuequipement"
+            style="@style/main_tab"
+            android:drawableTop="@drawable/tab_selector_message"
+            android:text="@string/menu_enuequipement"
+            android:textSize="12dp" />
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/main_tab"
+            android:drawableTop="@drawable/tab_selector_me"
+            android:text="@string/menu_me" />
+    </RadioGroup>
+</LinearLayout>

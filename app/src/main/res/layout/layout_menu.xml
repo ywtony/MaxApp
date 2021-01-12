@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_mainactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/topbar_height"
+       android:background="@color/bg_headerTran">
+       <ImageView
+           android:id="@+id/iv_header_left"
+           android:layout_width="@dimen/menu_menuSize"
+           android:layout_height="@dimen/menu_menuSize"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/iv_header_margin"
+           android:src="@drawable/menu"/>
+       <TextView
+           android:id="@+id/menu_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:text="@string/project_list"
+           android:drawablePadding="@dimen/tiny_space"
+           android:layout_marginRight="60dp"
+           android:textColor="@color/white"
+           android:textSize="@dimen/topbar_textSize" />
+   </RelativeLayout>
+    <ListView
+        android:id="@+id/list_project"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/assembly_margin"
+        android:layout_marginLeft="@dimen/assembly_margin"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:listSelector="@color/bg_color"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

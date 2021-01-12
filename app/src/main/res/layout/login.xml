@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <include layout="@layout/include"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/pwdimage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"/>
+            <EditText
+                android:id="@+id/edt_idaddress"
+                android:layout_toRightOf="@+id/pwdimage"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:hint="域名/服务器地址加端口号"
+                android:textColorHint="@color/grey_light"
+                android:textColor="@color/grey_light"
+                android:paddingLeft="10dp"
+                android:background="@null"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_xian"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/na"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/ic_launcher"/>
+            <EditText
+                android:layout_toRightOf="@+id/na"
+                android:layout_marginRight="10dp"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="@color/grey_light"
+                android:hint="请输入您的用户名"
+                android:textColorHint="@color/grey_light"
+                android:background="@null"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_xian"/>
+
+        <RelativeLayout
+            android:id="@+id/rr_mima"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/pwdimage2"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"/>
+            <EditText
+                android:layout_toRightOf="@+id/pwdimage2"
+                android:layout_marginRight="10dp"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:hint="请输入您的密码"
+                android:textColorHint="@color/grey_light"
+                android:textColor="@color/grey_light"
+                android:paddingLeft="10dp"
+                android:password="true"
+                android:background="@null"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/showpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_xian"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_below="@+id/login_ll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/huangse"
+            android:text="登录"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+[{
+	"ID": 30,
+	"PID": 0,
+	"Name": "APP首页",
+	"SystemID": {
+		"SysSystemID": 1,
+		"SystemName": "Main Monitor Platform",
+		"Thumbnail": "slt_1.png"
+	},
+	"BackgroundImage": "环境监测-6区段.png",
+	"OrderID": 22,
+	"Boxs": null,
+	"IsFloat": false,
+	"Width": 1080,
+	"Height": 1920,
+	"PageLevel": 1,
+	"BackColor": "fffafa",
+	"Hide": false
+}, {
+	"ID": 29,
+	"PID": 0,
+	"Name": "防火1区",
+	"SystemID": {
+		"SysSystemID": 1,
+		"SystemName": "Main Monitor Platform",
+		"Thumbnail": "slt_1.png"
+	},
+	"BackgroundImage": "",
+	"OrderID": 23,
+	"Boxs": null,
+	"IsFloat": false,
+	"Width": 600,
+	"Height": 800,
+	"PageLevel": 1,
+	"BackColor": "fffafa",
+	"Hide": false
+}, {
+	"ID": 31,
+	"PID": 0,
+	"Name": "防火2区",
+	"SystemID": {
+		"SysSystemID": 1,
+		"SystemName": "Main Monitor Platform",
+		"Thumbnail": "slt_1.png"
+	},
+	"BackgroundImage": "",
+	"OrderID": 24,
+	"Boxs": null,
+	"IsFloat": false,
+	"Width": 600,
+	"Height": 800,
+	"PageLevel": 1,
+	"BackColor": "fffafa",
+	"Hide": false
+}]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:textColor="@color/tv_title_color"
+            android:textSize="@dimen/remark_textSize"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="@string/clear_warning_reason"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/split_line_bg"/>
+
+       <GridView
+           android:id="@+id/grdview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="300dp"
+           android:divider="@null"
+           android:scrollbars="none"
+           android:listSelector="@color/bg_color"
+           android:numColumns="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/pop_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:text="@string/main_cancel"
+                android:gravity="center"
+                android:textColor="#37A1ED"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/pop_determine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#37A1ED"
+                android:text="@string/main_confirm"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/bg_color"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

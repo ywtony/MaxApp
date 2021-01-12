@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/common"
+        layout="@layout/header" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_marginTop="@dimen/et_marginTop"
+       android:layout_marginLeft="@dimen/et_marginTop"
+       android:layout_height="match_parent"
+       android:textColor="@color/tv_title_color"
+       android:textSize="@dimen/entirety_textSize"
+       android:text="@string/synopsis_data"/>
+</LinearLayout>

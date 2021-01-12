@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bohui.iml" filepath="$PROJECT_DIR$/Bohui.iml" group="Bohui" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Bohui/app" />
+      <module fileurl="file://$PROJECT_DIR$/downloadinguilibrary/downloadinguilibrary.iml" filepath="$PROJECT_DIR$/downloadinguilibrary/downloadinguilibrary.iml" group="Bohui/downloadinguilibrary" />
+      <module fileurl="file://$PROJECT_DIR$/downloadlibrary/downloadlibrary.iml" filepath="$PROJECT_DIR$/downloadlibrary/downloadlibrary.iml" group="Bohui/downloadlibrary" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="Bohui/library" />
+      <module fileurl="file://$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" filepath="$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" group="Bohui/permissionlibrary" />
+      <module fileurl="file://$PROJECT_DIR$/photogallery/photogallery.iml" filepath="$PROJECT_DIR$/photogallery/photogallery.iml" group="Bohui/photogallery" />
+      <module fileurl="file://$PROJECT_DIR$/ziplibrary/ziplibrary.iml" filepath="$PROJECT_DIR$/ziplibrary/ziplibrary.iml" group="Bohui/ziplibrary" />
+    </modules>
+  </component>
+</project>

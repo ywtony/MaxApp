@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/topbar_height"
+    android:background="@color/bg_header">
+    <ImageView
+    android:id="@+id/iv_header_left"
+    android:layout_width="@dimen/menu_backSize"
+    android:layout_height="@dimen/menu_backSize"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="@dimen/iv_header_margin"
+    android:src="@drawable/back_arrow"/>
+    <ImageView
+        android:id="@+id/iv_header_menu"
+        android:layout_width="@dimen/menu_menuSize"
+        android:layout_height="@dimen/menu_menuSize"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/iv_header_margin"
+        android:visibility="gone"
+        android:src="@drawable/menu"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/topbar_textSize" />
+    <TextView
+        android:id="@+id/tv_header_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/iv_header_margin"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/iv_header_right"
+        android:layout_width="@dimen/menu_rightivSize"
+        android:layout_height="@dimen/menu_rightivSize"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/iv_header_margin"
+        android:src="@drawable/news"
+        android:visibility="gone" />
+
+</RelativeLayout>

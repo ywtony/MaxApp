@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+application
+ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml:9:5-20
+uses-sdk
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		ADDED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangwei/Documents/tony/code/波慧/code/android/Bohui/library/src/main/AndroidManifest.xml

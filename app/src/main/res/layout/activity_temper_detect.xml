@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FA"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_property_public"
+        layout="@layout/header" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="@string/fault_details_description"
+        android:textSize="@dimen/entirety_textSize"
+        android:gravity="center"
+        android:textColor="@color/tv_title_color"
+        android:layout_marginLeft="@dimen/text_margin_iv"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/tv_margin"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corners_bg"
+        >
+      <EditText
+        android:id="@+id/et_faultDeta"
+        android:layout_marginLeft="@dimen/fault_rl_margin"
+        android:layout_marginRight="@dimen/fault_rl_margin"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:minHeight="120dp"
+        android:maxHeight="300dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/fault_details_description"
+        android:textColor="@color/tv_title_color"
+        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_faultDeta"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/iv_header_margin"
+            android:text="0/200"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/faul_samllinterval"
+        android:text="@string/upload_fault_picture"
+        android:textSize="@dimen/entirety_textSize"
+        android:textColor="@color/tv_title_color"
+        android:layout_marginLeft="@dimen/text_margin_iv"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/corners_bg"
+        android:minHeight="84dp"
+        >
+       <GridView
+           android:id="@+id/photoGrdview"
+           android:layout_margin="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:divider="@null"
+           android:scrollbars="none"
+           android:listSelector="#ffffff"
+           android:numColumns="3"/>
+    </RelativeLayout>
+
+</LinearLayout>
